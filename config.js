@@ -5,12 +5,12 @@ import fs from 'fs'
 
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['34642467703', '👑 Mystic - Collaborator 1 👑', true],
-  ['50499698072', '👑 Mystic - Collaborator 2 👑', true],
-  ['595986460945', '👑 Mystic - Collaborator 3 👑', true],
-  ['51940617554', '👑 Mystic - Collaborator 4 👑', true],
-  ['5219992095479'],
+  ['51959719359', 'ixxi oɟɟ', true],
+  ['5212312000993', 'nʎɯos oɟɟ.', true],
+  ['19106662200', 'ιzαиαму oɟɟ.', true],
+  ['15412991661', 'kxrlos oɟɟ.', true],
+  ['2347069516058', 'so', true],
+  ['511959719359'],
   ['5219991402134'],
   ['5219993404349'],
   ['5219996125657']
@@ -71,11 +71,11 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.author = 'boʇ oɟɟ doɯᴉuɐ.'
 
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
+global.wm = 'boʇ oɟɟ doɯᴉuɐ.'
+global.igfg = 'boʇ oɟɟ doɯᴉuɐ.'
+global.wait = '*⌛ _Espera..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
