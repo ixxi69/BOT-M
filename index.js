@@ -64,3 +64,4 @@ if (!opts['test'])
 if (!rl.listenerCount()) rl.on('line', line => {
 p.emit('message', line.trim())})}
 start('main.js')
+
