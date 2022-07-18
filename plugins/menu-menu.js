@@ -299,9 +299,9 @@ let str = `
 ➪  _${usedPrefix}listprem_
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
-[' Preciona ', '/Menuclmpleto'],
+[' Presiona ', '/pack3'],
 [' Owner ', '/owner'],
-[' Infobot ', '/infobot']
+[' Pajines ', '/Video']
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
