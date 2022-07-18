@@ -67,18 +67,17 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 let str = `
 *boʇ oɟɟ.*
 
-❏*ixxᴉ oɟɟ.*
-❏*nʎɯos oɟɟ.*
-❏*ιzαиαму oɟɟ.*
-❏*kxrlos oɟɟ.*
-
+❏ ixxᴉ oɟɟ.
+❏ nʎɯos oɟɟ.
+❏ιzαиαму oɟɟ.
+❏ kxrlos oɟɟ.
 ➪ 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
 ➪ 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ➪ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 
+•Menu editado x nʎɯos oɟɟ
 
 *ɪɴғᴏʀᴍᴀᴄɪᴏ́ɴ ᴅᴇʟ ʙᴏᴛ.*
-
 ➪ _${usedPrefix}grupos_
 ➪ _${usedPrefix}estado_
 ➪ _${usedPrefix}infobot_
