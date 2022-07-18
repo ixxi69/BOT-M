@@ -295,10 +295,10 @@ let str = `
 ➪  _${usedPrefix}delprem_ *@tag*
 ➪  _${usedPrefix}listprem_
 `.trim()
-conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
-[' Presiona ', '/pack3'],
+conn.sendHydrated2(m.chat, str, wm, pp, 'chupaditas de tetas al dm de ixxi', 'Sexo', 'https://github.com/ixxi69/Bot-M', '𝙶𝙸𝚃𝙷𝚄𝙱', [
+[' Presiona ', '/tetas'],
 [' Owner ', '/owner'],
-[' Pajines ', '/Video']
+[' Pajines ', '/pack3']
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
