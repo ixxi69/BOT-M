@@ -20,7 +20,6 @@ let estado =`
 
 conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/ixxi69/BOT-M', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄', '/menu']
-['CAJA FUERTE', ' /cajafuerte]
 ], m)}
 
 handler.help = ['estado']
