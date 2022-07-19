@@ -71,10 +71,10 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = 'OSMPTICO'
+global.author = 'whatsapp'
 
-global.wm = 'OSMOTICO'
-global.igfg = 'OSMOTICO'
+global.wm = 'whatsapp'
+global.igfg = 'whatsapp'
 global.wait = '*⌛ _Espera..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
