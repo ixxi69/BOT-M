@@ -65,12 +65,11 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 
 let str = `
-
-
 *boʇ oɟɟ.*
-➪📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
-➪📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
-➪📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
+
+➪𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
+➪𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
+➪𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 
 ❏ ixxᴉ oɟɟ.
 ❏ nʎɯos oɟɟ.
@@ -298,9 +297,7 @@ let str = `
 ➪  _${usedPrefix}listprem_
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'chupaditas de tetas al dm de ixxi', 'Sexo', 'https://github.com/ixxi69/Bot-M', '𝙶𝙸𝚃𝙷𝚄𝙱', [
-[' CLICK ', '/tetas'],
-[' OWNER ', '/owner'],
-[' TETAS ', '/pack3']
+[' *OWNER* ', '/owner'],
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
