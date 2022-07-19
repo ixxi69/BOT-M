@@ -66,16 +66,10 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
-let texto1 = `╭═─═─═─═─═─═╮
-║  BOT off Domina
-║╰═─═─═─═─══╯
-║- 𝙷𝙾𝙻𝙰 @${m.sender.split("@")[0]}
-║- 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
-╿- 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}╯               
-╠═─═─ •  • ─═─═╮
-║    *ＣＯＭＡＮＤＯＳ*
-╠═─═─ •  • ─═─═╯
-╰╮
+let texto1 = `
+
+--𝙷𝙾𝙻𝙰 @${m.sender.split("@")[0]}               
+    *ＣＯＭＡＮＤＯＳ*
 01╠ Bot (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 02╠ admins (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 03╠ ${usedPrefix}grupos
@@ -175,7 +169,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 97╠ ${usedPrefix}loli
 98╠ ${usedPrefix}navidad
 99╠ ${usedPrefix}ppcouple
-⌻ ╰╮
 100╠ ${usedPrefix}neko
 101╠ ${usedPrefix}waifu
 102╠ ${usedPrefix}akira
@@ -316,15 +309,10 @@ let texto1 = `╭═─═─═─═─═─═╮
 238╠ ${usedPrefix}xnxxsearch
 239╠ ${usedPrefix}xnxxdl
 240╠ ${usedPrefix}xvideosdl
-╭─╯
-║ㅤㅤㅤ A____A
-║ㅤㅤㅤ |・ㅅ・|
-?ㅤㅤㅤ |っ　ｃ|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ U￣￣U
-╠═─═─ • ⏄ • ─═─═╮
-╰═─═─ • ⏄ • ─═─═╯`
+
+-𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
+-𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg
+`
 const fake = { quoted: {
 key : {
 participant : '0@s.whatsapp.net' },
@@ -359,7 +347,7 @@ contextInfo: {
 "showAdAttribution": false,
 "title": `CHUPENME EL PENE`,
 "mediaType": 2, 
-"previewType": "VIDEO",
+"previewType": "Gif",
 "thumbnail": imagen3,
 "mediaUrl": 'https://youtu.be/qtOsXXowBw8'',
 "sourceUrl": 'https://www.pornhub.com' }}} 
