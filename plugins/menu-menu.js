@@ -86,6 +86,7 @@ let str = `
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'chupaditas de tetas al dm de ixxi', 'Sexo', 'https://github.com/ixxi69/Bot-M', '𝙶𝙸𝚃𝙷𝚄𝙱', [
 ['MENU', '/Menu3'],
+['OWNER', '/Owner']
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
