@@ -78,15 +78,6 @@ let str = `
 
 ʍǝnu x nʎɯos oɟɟ.
 
-*ɪɴғᴏʀᴍᴀᴄɪᴏ́ɴ ᴅᴇʟ ʙᴏᴛ.*
-➪ _${usedPrefix}grupos_
-➪ _${usedPrefix}estado_
-➪ _${usedPrefix}infobot_
-➪ _${usedPrefix}donar_
-➪ _${usedPrefix}grouplist_
-➪ _${usedPrefix}owner_
-➪ _${usedPrefix}script_
-➪ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
 *ᴜɴᴇ ᴜɴ ʙᴏᴛ ᴀ ᴛᴜ ɢʀᴜᴘᴏ.*
 
