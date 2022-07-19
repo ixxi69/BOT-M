@@ -17,7 +17,7 @@ let str = `*𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + '
 *𝙽𝚄𝙼𝙴𝚁𝙾:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 *𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
 *𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾:* ${registered ? 'Si': 'No'}
-*conn.sendButton(m.chat, str, author, pp, [['𝙼𝙴𝙽𝚄', '/menu']], m)
+*conn.sendButton(m.chat, str, author, pp, [['MENU', '/menu']], m)
 }}
 handler.help = ['profile [@user]']
 handler.tags = ['xp']
