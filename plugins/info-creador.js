@@ -32,8 +32,8 @@ let buttonMessage= {
 'caption': text,
 'footer': wm,
 'buttons':[
-{buttonId: `${usedPrefix}perfil`, buttonText: {displayText: 'PERFIL'}, type: 1}, 
-{buttonId: `${usedPrefix}perfilgroup`, buttonText: {displayText: 'GRUPO'}, type: 1}],
+{buttonId: `${usedPrefix} perfil`, buttonText: {displayText: 'PERFIL'}, type: 1}, 
+{buttonId: `${usedPrefix} infogroup`, buttonText: {displayText: 'GRUPO'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 const data = global.owner.filter(([id, isCreator]) => id && isCreator)
