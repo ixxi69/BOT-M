@@ -66,18 +66,15 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 let str = `
 *boʇ oɟɟ.*
-
 ➪𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
 ➪𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ➪𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
-
+_______________________
 ❏ ixxᴉ oɟɟ.
 ❏ nʎɯos oɟɟ.
 ❏ ιzαиαму oɟɟ.
 ❏ kxrlos oɟɟ.
-
 ʍǝnu x nʎɯos oɟɟ.
-
 
 *ᴜɴᴇ ᴜɴ ʙᴏᴛ ᴀ ᴛᴜ ɢʀᴜᴘᴏ.*
 
