@@ -65,7 +65,7 @@ let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 let texto1 = `╭═─═─═─═─═─═╮
-║   𝚃𝙷𝙴 WHATSAPP - 𝙱𝙾𝚃 - 𝙼𝙳
+║    - 𝙱𝙾𝚃 - 𝙼𝙳
 ║╰═─═─═─═─══╯
 ┠╮
 ║- 𝙷𝙾𝙻𝙰 @${m.sender.split("@")[0]}
@@ -338,9 +338,8 @@ const fake = { quoted: {
 	var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 	var document = doc[Math.floor(Math.random() * doc.length)]
 	const buttons = [
-	{buttonId: `#donar`, buttonText: {displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮'}, type: 1},
-	{buttonId: `#menuaudios`, buttonText: {displayText: '🔊 𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂 🔊'}, type: 1},
-	{buttonId: `#menucompleto`, buttonText: {displayText: '💟 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 💟'}, type: 1}, ]
+	{buttonId: `#perfil`, buttonText: {displayText: 'Perfil'}, type: 1},
+	{buttonId: `#verificar`, buttonText: {displayText: 'VERIFICAR'}, type: 1},  ]
 	let buttonMessage = {
 	document: imagen1, 
 	fileName: `ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩`, 
@@ -349,7 +348,7 @@ const fake = { quoted: {
 	caption: texto1,
 	fileLength: "99999999999999",
 	mentions:[m.sender, owner],
-	footer: `𝔹𝕪 𝔹𝕣𝕦𝕟𝕠 𝕊𝕠𝕓𝕣𝕚𝕟𝕠`,
+	footer: `ixxi`,
 	buttons: buttons,
 	headerType: 4,   
 	contextInfo: {
