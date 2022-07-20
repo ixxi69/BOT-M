@@ -73,9 +73,9 @@ let str = `
 ❏ nʎɯos oɟɟ.
 ❏ ιzαиαму oɟɟ.
 ❏ kxrlos oɟɟ.
-
 ʍǝnu x nʎɯos oɟɟ.
 `.trim()
+conn.sendHydrated2(m.chat, str, wm, pp, 'SEXO ANAL AL PV', 'SEXO', 'https://github.com/ixxi69/Bot-M', '𝙶𝙸𝚃𝙷𝚄𝙱', [
 ['MENU', '/Menu2'],
 ['OWNER', '/Owner']
 ], m,)
