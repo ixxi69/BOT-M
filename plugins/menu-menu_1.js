@@ -312,14 +312,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 238╠ ${usedPrefix}xnxxsearch
 239╠ ${usedPrefix}xnxxdl
 240╠ ${usedPrefix}xvideosdl
-╭─╯
-╠╯
-║ㅤㅤㅤ A____A
-║ㅤㅤㅤ |・ㅅ・|
-║ㅤㅤㅤ |っ　ｃ|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ U￣￣U
 ╠═─═─ • ⏄ • ─═─═╮
 ╰═─═─ • ⏄ • ─═─═╯`
 const fake = { quoted: {
@@ -359,7 +351,7 @@ const fake = { quoted: {
 	"mediaType": 2, 
 	"previewType": "VIDEO",
 	"thumbnail": imagen3,
-	"mediaUrl": 'https://youtu.be/eC9TfKICpcY',
+	"mediaUrl": 'https://youtu.be/KCECUM-rNSI',
 	"sourceUrl": 'https://www.pornhub.com' }}} 
 	conn.sendMessage(m.chat, buttonMessage, fake)}
 	handler.help = ['menu', 'help', '?']
