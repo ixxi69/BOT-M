@@ -147,8 +147,7 @@ let texto1 = `╭═─═─═─═─═─═╮
 ╿- 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 
   *ＣＯＭＡＮＤＯＳ*
-ɪɴғᴏʀᴍᴀᴄɪᴏ́ɴ ᴅᴇʟ ʙᴏᴛ.
-
+ɪɴғᴏʀᴍᴀᴄɪᴏ́ɴ ᴅᴇʟ ʙᴏᴛ
 ➪ ${usedPrefix}grupos
 ➪ ${usedPrefix}estado
 ➪ ${usedPrefix}infobot
@@ -158,13 +157,11 @@ let texto1 = `╭═─═─═─═─═─═╮
 ➪ ${usedPrefix}script
 ➪ Bot (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
-
 ᴜɴᴇ ᴜɴ ʙᴏᴛ ᴀ ᴛᴜ ɢʀᴜᴘᴏ.
 
 ➪ ${usedPrefix}join link
 
 ᴀᴄᴛɪᴠᴀʀ ᴏ ᴅᴇsᴀᴄᴛɪᴠᴀʀ.
-
 ➪  ${usedPrefix}enable welcome
 ➪  ${usedPrefix}disable welcome
 ➪  ${usedPrefix}enable modohorny
@@ -188,7 +185,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 ➪ ${usedPrefix}reporte texto
 
 ᴅᴇsᴄᴀʀɢᴀs.
-
 ➪  ${usedPrefix}facebook link
 ➪  ${usedPrefix}instagram link
 ➪  ${usedPrefix}mediafire link
@@ -220,7 +216,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 ➪  ${usedPrefix}tiktokstalk nombre de usuario
 
 ɢʀᴜᴘᴏs. 
-
 ➪  ${usedPrefix}add numero
 ➪  ${usedPrefix}kick @tag
 ➪  ${usedPrefix}grupo abrir / cerrar
@@ -237,9 +232,7 @@ let texto1 = `╭═─═─═─═─═─═╮
 ➪  ${usedPrefix}setbye texto
 ➪  ${usedPrefix}hidetag texto
 
-
 ᴄᴏɴᴠᴇʀᴛɪᴅᴏʀᴇs.
-
 ➪  ${usedPrefix}toimg responde a un sticker
 ➪  ${usedPrefix}tomp3 responde a un video / nota de voz
 ➪  ${usedPrefix}toptt responde a un video / audio
@@ -247,9 +240,7 @@ let texto1 = `╭═─═─═─═─═─═╮
 ➪  ${usedPrefix}tourl responde a un video / imagen / audio
 ➪  ${usedPrefix}tts es texto
 
-
 ᴇғᴇᴄᴛᴏs ʏ ʟᴏɢᴏs.
-
 ➪  ${usedPrefix}logos <efecto> texto
 ➪ ️ ${usedPrefix}logocorazon texto
 ➪  ${usedPrefix}logochristmas texto
@@ -261,9 +252,7 @@ let texto1 = `╭═─═─═─═─═─═╮
 ➪  ${usedPrefix}pixelar
 ➪️  ${usedPrefix}blur
 
-
 ᴄᴏᴍᴀɴᴅᴏs +18
-
 ➪  ${usedPrefix}pack
 ➪  ${usedPrefix}pack2
 ➪  ${usedPrefix}pack3
