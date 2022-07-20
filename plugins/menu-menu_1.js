@@ -65,18 +65,14 @@ let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 let texto1 = `╭═─═─═─═─═─═╮
-║   𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 - 𝙼𝙳
+║   𝚃𝙷𝙴 WHATSAPP - 𝙱𝙾𝚃 - 𝙼𝙳
 ║╰═─═─═─═─══╯
 ┠╮
 ║- 𝙷𝙾𝙻𝙰 @${m.sender.split("@")[0]}
 ║- 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ╿- 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
-╠╯               
-╠═─═─ • ⏄ • ─═─═╮
-║    *ＣＯＭＡＮＤＯＳ*
-╠═─═─ • ⏄ • ─═─═╯
-║
-╰╮
+╠╯             
+   *ＣＯＭＡＮＤＯＳ*
 01╠ Bot (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 02╠ admins (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 03╠ ${usedPrefix}grupos
@@ -176,7 +172,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 97╠ ${usedPrefix}loli
 98╠ ${usedPrefix}navidad
 99╠ ${usedPrefix}ppcouple
-⌻ ╰╮
 100╠ ${usedPrefix}neko
 101╠ ${usedPrefix}waifu
 102╠ ${usedPrefix}akira
@@ -343,10 +338,10 @@ const owner = "5219992095479@s.whatsapp.net"
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]
 const buttons = [
-{buttonId: `#donar`, buttonText: {displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮'}, type: 1},
-{buttonId: `#menuaudios`, buttonText: {displayText: '🔊 𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂 🔊'}, type: 1},
-{buttonId: `#menucompleto`, buttonText: {displayText: '💟 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 💟'}, type: 1}, ]
-let buttonMessage = {
+{buttonId: `#perfil`, buttonText: {displayText: ' PERFIL'}, type: 1},
+{buttonId: `#verificar`, buttonText: {displayText: 'VERIFICAR}, type: 1}, 
+
+                  let buttonMessage = {
 document: imagen1, 
 fileName: `ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩`, 
 mimetype: `application/${document}`,
@@ -354,18 +349,18 @@ jpegThumbnail: imagen1,
 caption: texto1,
 fileLength: "99999999999999",
 mentions:[m.sender, owner],
-footer: `𝔹𝕪 𝔹𝕣𝕦𝕟𝕠 𝕊𝕠𝕓𝕣𝕚𝕟𝕠`,
+footer: `By ixxi`,
 buttons: buttons,
 headerType: 4,   
 contextInfo: {
 "mentionedJid": [m.sender, owner],
 "externalAdReply": {
 "showAdAttribution": false,
-"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾𝙽`,
+"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 LAMER PENES`,
 "mediaType": 2, 
 "previewType": "VIDEO",
 "thumbnail": imagen3,
-"mediaUrl": 'https://youtu.be/eC9TfKICpcY',
+"mediaUrl": 'https://youtu.be/Cl5Vkd4N03Q',
 "sourceUrl": 'https://www.pornhub.com' }}} 
 conn.sendMessage(m.chat, buttonMessage, fake)}
 handler.help = ['menu', 'help', '?']
