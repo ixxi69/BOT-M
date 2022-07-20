@@ -355,7 +355,7 @@ const fake = { quoted: {
 	"mentionedJid": [m.sender, owner],
 	"externalAdReply": {
 	"showAdAttribution": false,
-	"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾𝙽`,
+	"title": `PENES VS VAGINAS`,
 	"mediaType": 2, 
 	"previewType": "VIDEO",
 	"thumbnail": imagen3,
